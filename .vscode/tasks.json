@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "C: gcc build active file",
+            "type": "shell",
+            "command": "C:/w64devkit/bin/gcc.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "env": {
+                    "PATH": "C:\\w64devkit\\bin;${env:PATH}"
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "GCC로 현재 열린 C 파일을 컴파일합니다"
+        }
+    ]
+}
