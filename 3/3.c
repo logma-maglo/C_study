@@ -87,6 +87,9 @@ int main(void)
 
     */
 
+
+
+    /*
     int i,j=2,k,o=0;
     printf("항\n");
     scanf_s("%d", &i);
@@ -106,21 +109,18 @@ int main(void)
     // }
     
     
-    k=0;
-    do
-    {
-        j=j+k;
-        o=o+j;
-        k++;
-    } while (k<i);
+    // k=0;
+    // do
+    // {
+    //     j=j+k;
+    //     o=o+j;
+    //     k++;
+    // } while (k<i);
     
-
-
-
-
-
+    
     printf("%d",o);
+    */
 
-    
-    return 0;
+
+     return 0;
 }
